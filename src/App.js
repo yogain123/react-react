@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends Component {
   render() {
-    console.log("Hii Yogendra");
+    console.log(`Hii Yogendra ,, Dev Environment is ${process.env.NODE_ENV || "Default"}`);
     
     return (
       <div className="App">
